@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Acá estilos generales */
+
+.image-container {
+    display: flex;
+}
+.image-container img {
+    width: 100%;
+}
+/*Acá tengo los estilos del header*/
+header{
+    background: #67699d;
+    padding: 10px 50px;
+}
+#Logo {
+    width: 100px;
+}
+#Logo img {
+    border-radius: 100%;
+    border: 2px solid #070707;
+}
+/* Acá estan los estilos del acarreo poner cosas encima de otras*/
+#acarreo {
+    position: relative;
+}
+
+#acarreo #camion{
+    display: inline-block;
+    width: 100%;
+}
+#acarreo .informacion-contenedor {
+    position: absolute;
+    top: 8%;
+    left: 0;
+    width: 100%;
+    padding: 0 180px;
+}
+#acarreo .informacion-contenedor #foto {
+    width: 200px;
+    padding: 50pxs;
+    
+}
+#acarreo .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
+/* estilosw del main*/
+
+main {
+    padding: 100px;
+}
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+main .social-icons li {
+    margin-left: 8px;
+}
+main .social-icons .social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+main .social-icons #whatsApp {
+    background: #036132;
+    width: 20px;
+}
+main .social-icons #Facebook {
+    background: #091be7;
+}
